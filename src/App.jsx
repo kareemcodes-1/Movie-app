@@ -1,12 +1,17 @@
 import "./index.css";
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Movies from "./components/Movies";
 
 function App(){
-
    return (
       <>
-        {/* Import and add an projects component here to view on broswer */}
+         <Navbar /> 
+         <Hero />
+         <Movies />
       </>
+
    )
 }
 
